@@ -15,7 +15,7 @@ A quantitative M&A analysis simulating a hypothetical acquisition of Adobe Inc. 
 ## Project Structure
 
 Apple_Adobe_MnA/
-  src/
+  src/{
     - data_loader.py
     - company.py
     - forecasting.py
@@ -29,9 +29,14 @@ Apple_Adobe_MnA/
     - irr.py
     - synergy_decomposition.py
     - credit_ratios.py
-  models/
+  }
+    
+  models/{
     - assumptions.py
+    }
+    
   main.py
+  
   requirments.txt
 
 ## Key Findings
