@@ -13,25 +13,26 @@ A quantitative M&A analysis simulating a hypothetical acquisition of Adobe Inc. 
 - Credit ratio analysis (pre and post deal)
 
 ## Project Structure
-mna_simulation/
-├── src/
-│   ├── data_loader.py
-│   ├── company.py
-│   ├── forecasting.py
-│   ├── valuation.py
-│   ├── deal.py
-│   ├── synergies.py
-│   ├── proforma.py
-│   ├── accretion.py
-│   ├── monte_carlo.py
-│   ├── sensitivity.py
-│   ├── irr.py
-│   ├── synergy_decomposition.py
-│   └── credit_ratios.py
-├── models/
-│   └── assumptions.py
-├── main.py
-└── requirements.txt
+
+Apple_Adobe_MnA/
+  src/
+    - data_loader.py
+    - company.py
+    - forecasting.py
+    - valuation.py
+    - deal.py
+    - synergies.py
+    - proforma.py
+    - accretion.py
+    - monte_carlo.py
+    - sensitivity.py
+    - irr.py
+    - synergy_decomposition.py
+    - credit_ratios.py
+  models/
+    - assumptions.py
+  main.py
+  requirments.txt
 
 ## Key Findings
 - Deal is accretive in 100% of Monte Carlo simulations
